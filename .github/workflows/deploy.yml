@@ -22,5 +22,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          cname: ${{ secrets.CNAME }}
           github_token: ${{ secrets.WORKFLOW_TOKEN }}
           publish_dir: docs/.vitepress/dist
