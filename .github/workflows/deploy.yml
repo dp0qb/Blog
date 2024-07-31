@@ -19,9 +19,12 @@ jobs:
       # - name: Build
       #   run: npm run docs:build
 
-      - name: Deploy
-        # uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.TOKEN }}
-          publish_dir: docs/.vitepress/dist
-          run: echo $github_token
+      # - name: Deploy
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.TOKEN }}
+      #     publish_dir: docs/.vitepress/dist
+      - name: Test
+        # with:
+        #   github_token: ${{ secrets.TOKEN }}
+        run: echo ${{ secrets.TOKEN }}
