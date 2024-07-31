@@ -27,4 +27,4 @@ jobs:
       - name: Test
         # with:
         #   github_token: ${{ secrets.TOKEN }}
-        run: echo ${{ secrets.TOKEN }}
+        run: echo ${{ secrets.GITHUB_TOKEN }}
