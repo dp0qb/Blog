@@ -94,7 +94,6 @@ export default defineConfig({
   title: "(｡•̀ᴗ-)✧",
   description: "BaiXia's Blog",
   lang: "zh-CN",
-  base: "/blog/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: getNavData(),
