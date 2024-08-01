@@ -68,7 +68,7 @@ export function getSidebarData(sidebarGenerateConfig: SidebarGenerateConfig = {}
   const {
     dirName = 'articles',
     ignoreFileName = 'index.md',
-    ignoreDirNames = ['demo', 'asserts'],
+    ignoreDirNames = ['demo', 'asserts', 'temp'],
   } = sidebarGenerateConfig
 
   // 获取目录的绝对路径

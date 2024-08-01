@@ -1,24 +1,16 @@
 <template>
-  <Layout :class="layoutClass">
+  <Layout>
     <template #doc-after>
-      <Comment />
+      <Comment></Comment>
     </template>
   </Layout>
 </template>
 
-<script lang="ts" setup>
+<script setup lang="ts">
 import DefaultTheme from 'vitepress/theme'
-import Comment from './components/Comment.vue'
-import { useData } from 'vitepress'
-import { ref } from 'vue'
+import Comment from './components/Comment.vue';
 
-const { Layout } = DefaultTheme
-const { frontmatter } = useData()
-
-const layoutClass = ref('')
-if (frontmatter.value?.layoutClass) {
-  layoutClass.value = frontmatter.value.layoutClass
-}
+const { Layout } = DefaultTheme;
 </script>
 
 <style scoped>

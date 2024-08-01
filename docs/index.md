@@ -9,7 +9,7 @@ hero:
     alt: VitePress
   actions:
     - theme: brand
-      text: 开始阅读 ->
+      text: 去看看 ->
       link: /articles/学习笔记
 features:
   - icon: 💻
