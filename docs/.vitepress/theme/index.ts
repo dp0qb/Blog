@@ -1,6 +1,6 @@
 import DefaultTheme from 'vitepress/theme';
 import Layout from './Layout.vue';
-import l2d_models from "/public/l2d_models.ts";
+import l2d_models from "../../public/l2d_models.ts";
 
 export default {
   ...DefaultTheme,
