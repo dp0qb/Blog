@@ -1,0 +1,23 @@
+# 爬虫相关内容
+
+::: tip
+#### 本篇介绍爬虫相关内容，需要 `python` 运行环境。
+</br>
+:::
+
+## requests包
+
+`requests`包作为编写爬虫时常用的包，体积小巧且功能强大，非常推荐使用。
+以下是一个简单的示例：
+
+```
+import requests
+
+url = "http://www.baidu.com"
+response = requests.get(url)
+print(response.status_code)
+response.encoding = "utf-8"
+print(response.text)
+```
+
+
