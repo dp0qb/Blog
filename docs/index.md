@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: 柏霞的博客
-  text: Baixia's Blog
+  text: BAIXIA'S BLOG
   tagline: 你好，欢迎来到我的博客。我是一名地质学专业的在读学生。 我会在这里记录和分享一些自己学习和思考的内容。
   image:
     src: /bg.png
