@@ -1,5 +1,0 @@
-import{_ as a,c as s,o as e,a4 as n}from"./chunks/framework.DrCKO7Ve.js";const u=JSON.parse('{"title":"如何把握浇水的时机","description":"","frontmatter":{},"headers":[],"relativePath":"articles/日常分享/养花相关/如何浇水.md","filePath":"articles/日常分享/养花相关/如何浇水.md"}'),t={name:"articles/日常分享/养花相关/如何浇水.md"},p=n(`<h1 id="如何把握浇水的时机" tabindex="-1">如何把握浇水的时机 <a class="header-anchor" href="#如何把握浇水的时机" aria-label="Permalink to &quot;如何把握浇水的时机&quot;">​</a></h1><p><strong>到底多久浇一回水啊？？？</strong></p><p>相信很多刚开始接触养花的花友都会遇到这样一个问题。 请看下面这段对话：</p><div class="language- vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang"></span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>A: 你这花都蔫了，咋不浇点水呢？</span></span>
-<span class="line"><span>B: 我买的时候问卖花的。他说好养活，一周浇一次水就行。</span></span>
-<span class="line"><span>A: 你每次浇完水有好转吗？</span></span>
-<span class="line"><span>B: 浇完水就好多了。我这不怕它淹死嘛。</span></span>
-<span class="line"><span>A: ...</span></span></code></pre></div>`,4),c=[p];function i(o,l,r,_,d,h){return e(),s("div",null,c)}const f=a(t,[["render",i]]);export{u as __pageData,f as default};
